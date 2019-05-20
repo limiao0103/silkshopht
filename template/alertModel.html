@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Notifications</title>
+
+	<!-- Material Icons  -->
+	<link href="../css/materialIcons.css" rel="stylesheet">
+	<!-- Roboto Font -->
+	<link href="../css/robotoFont.css" rel="stylesheet">
+
+	<!-- Vendor CSS -->
+	<link type="text/css" href="../css/plugins.css" rel="stylesheet">
+	
+	<!-- App CSS -->
+	<link type="text/css" href="../css/style.css" rel="stylesheet">
+
+	<script src="../plugins/jquery.min.js"></script>
+
+	
+
+</head>
+<body>
+	<!-- Navbar (depending on page) -->
+	
+		<!-- Navbar -->
+<nav class="navbar navbar-light bg-white navbar-full navbar-fixed-top left-md-sidebar">
+	<button class="navbar-toggler pull-xs-left hidden-md-up" type="button" data-toggle="sidebar" data-target="#sidebarLeft" aria-expanded="false" aria-controls="sidebarLeft" data-transition="false">
+		<span class="material-icons">menu</span>
+	</button>
+	<a class="navbar-brand" href="index.html">Notifications</a>
+    <form class="form-inline pull-xs-left hidden-sm-down">
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn" type="button"><i class="material-icons">search</i></button>
+              </span>
+        </div>
+    </form>
+	<div class="pull-xs-right hidden-sm-down">
+		<ul class="nav navbar-nav">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-caret="false" data-toggle="dropdown" role="button" aria-haspopup="false">
+					<i class="material-icons">mail_outline</i>
+				</a>
+
+				<div class="dropdown-menu dropdown-menu-right notifications" aria-labelledby="Preview">
+					<div class="dropdown-title">Emails</div>
+                    <a href="#" class="dropdown-item">
+                        <div class="media">
+                            <div class="media-left media-middle hidden-sm-down" href="#">
+                                <i class="material-icons md-dark md-inactive">email</i>
+                            </div>
+                            <div class="media-body media-middle">
+                                <small class="text-muted pull-xs-right">2 min</small>
+                                <p class="m-a-0">Jimmy Smith</p>
+                                <p class="small m-a-0 text-muted">Are you working today?</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                        <div class="media">
+                            <div class="media-left media-middle hidden-sm-down" href="#">
+                                <i class="material-icons md-dark md-inactive">email</i>
+                            </div>
+                            <div class="media-body media-middle">
+                                <small class="text-muted pull-xs-right">30 min</small>
+                                <p class="m-a-0">Craig Skip</p>
+                                <p class="small m-a-0 text-muted">Partnership proposal</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="dropdown-item">
+                        <div class="media">
+                            <div class="media-left media-middle hidden-sm-down" href="#">
+                                <i class="material-icons md-dark md-inactive">email</i>
+                            </div>
+                            <div class="media-body media-middle">
+                                <small class="text-muted pull-xs-right">1 hr</small>
+                                <p class="m-a-0">Sammie Downey</p>
+                                <p class="small m-a-0 text-muted">UI Design</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-action">
+                        <a href="#" class="btn btn-primary btn-block btn-rounded">View All</a>
+                    </div>
+                </div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link active dropdown-toggle p-a-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" >
+                    <img src="../picture/guy-6.jpg" alt="Avatar" class="img-circle" width="40">
+				</a>
+				<div class="dropdown-menu dropdown-menu-right dropdown-menu-list" aria-labelledby="Preview">
+					<a class="dropdown-item" href="#"><i class="material-icons md-18">lock</i> <span class="icon-text">Edit Account</span></a>
+					<a class="dropdown-item" href="#"><i class="material-icons md-18">person</i> <span class="icon-text">Public Profile</span></a>
+					<a class="dropdown-item" href="#">Logout</a>
+				</div>
+			</li>
+        </ul>
+
+	</div>
+</nav>
+	
+
+	<!-- Sidebar (depending on page) -->
+	 
+		<!-- Sidebar -->
+<div class="sidebar sidebar-left sidebar-dark bg-primary" id="sidebarLeft">
+	<a href="index.html" class="sidebar-brand">
+		<i class="material-icons">control_point</i> <span class="icon-text">Admin Plus</span>
+	</a>
+	<a href="user-profile.html" class="sidebar-user">
+    <img src="../picture/guy-6_1.jpg" alt="" class="img-circle">
+    Adrian Demian
+</a>
+	<ul class="nav" id="mainMenu">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="icon-text">Dashboard</span></a> 
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#"><i class="material-icons">view_compact</i><span class="icon-text">Layout Options</span> <span class="label"></span></a>
+        <ul>
+            <li><a href="index.html">Default</a></li>
+             <li><a href="blank-sidebar-light.html">Sidebar Light</a></li>
+            <li><a href="blank-sidebar-multiple.html">Multiple Sidebars</a></li>
+            <li><a href="blank-navbar-colored.html">Navbar Colored</a></li>
+            <li><a href="blank-no-sidebar.html">Fixed Layout</a></li>
+        </ul>
+
+    </li>
+    <li class="nav-item open">
+        <a class="nav-link" href="ui-elements.html"><i class="material-icons">tune</i><span class="icon-text">UI Components</span></a>
+        <ul>
+            <li><a href="ui-buttons.html">Buttons</a></li>
+            <li><a href="ui-cards.html">Cards</a></li>
+            <li><a href="ui-tabs.html">Tabs</a></li>
+            <li><a href="ui-tree.html">Tree</a></li>
+            <li><a href="ui-nestable.html">Nestable</a></li>
+            <li class="active"><a href="ui-notifications.html">Notifications</a></li>
+            <li>
+                <a class="nav-link" href="forms.html">Forms</a>
+            </li>
+            <li>
+                <a class="nav-link" href="charts.html">Charts</a>
+            </li>
+            <li>
+                <a href="calendar.html">Calendar</span></a>
+                </li>
+            <li>
+                <a class="nav-link" href="maps.html">Filterable Map</a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="nav-item">
+
+        <a class="nav-link" href="#">
+            <i class="material-icons">assignment</i><span class="icon-text">Pages</span>
+        </a>
+        <ul>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="email.html">Email</a></li>
+            <li><a href="user-profile.html">User Profile</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="login-signup.html">Login / Sign Up</a>
+            </li>
+        </ul>
+    </li>
+ 
+
+</ul>
+	<div class="sidebar-header">Activity</div>
+<ul class="sidebar-activity">
+	<li class="media active">
+		<div class="media-left">
+			<div class="sidebar-activity-icon">
+				<i class="material-icons">mail</i>
+			</div>
+		</div>
+		<div class="media-body">
+			<a href="#">Adrian Demian</a> posted a new <a href="#">#Design</a>	
+			<small>10 days ago</small>
+		</div>
+	</li>
+	<li class="media">
+		<div class="media-left">
+			<div class="sidebar-activity-icon">
+				<i class="material-icons">today</i>
+			</div>
+		</div>
+		<div class="media-body">
+			<a href="#">Andrew Brain</a> completed his <a href="#">#work</a>
+			<small>10 days ago</small>
+		</div>
+	</li>
+	<li class="media">
+		<div class="media-left">
+			<div class="sidebar-activity-icon">
+				<i class="material-icons">person</i> 
+			</div>
+		</div>
+		<div class="media-body">
+			<a href="#">John Donahue</a> set a new <a href="#">#trend</a>
+			<small>10 days ago</small>
+		</div>
+	</li>
+</ul>
+	<div class="sidebar-stats">
+    <div class="sidebar-stats-lead text-primary">
+        <span>410</span>
+        <small class="text-success">
+            <i class="material-icons md-middle">arrow_upward</i> 
+            <span class="icon-text">3.4%</span>
+        </small>
+    </div>
+    <small>TOTAL ORDERS</small>
+</div>
+</div>
+	
+
+
+	<!--  Content -->
+	
+<div class="content-wrapper">
+    <ol class="breadcrumb p-b-0">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Notifications</li>
+    </ol>
+    <div class="jumbotron">
+        <p class="lead m-a-0">SweetAlert automatically centers itself on the page and looks great no matter if you're using a desktop computer, mobile or tablet. It's even highly customizeable, as you can see below!</p>
+    </div>
+
+        <div class="card-group m-b-1">
+                <div class="card">
+                    <div class="card-block">
+                        <p>A basic message</p>
+                        <button onclick="simpleMessage()" class="btn btn-primary">Try Alert!</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p>A title with a text under</p>
+                        <button onclick="simpleTitle()" class="btn btn-primary">Try Alert!</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p>A success message!</p>
+                        <button onclick="successMessage()" class="btn btn-success">Try Alert!</button>
+                    </div>
+                </div>
+
+            </div>
+        <div class="card-group m-b-1">
+                <div class="card">
+                    <div class="card-block">
+                        <p>A warning message, with a function attached to the "Confirm"-button...</p>
+                        <button onclick="warningConfrim()" class="btn btn-warning">Try Alert!</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p>... and by passing a parameter, you can execute something else for "Cancel".</p>
+                        <button onclick="warningCallback()" class="btn btn-danger">Try Alert!</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p>An html message</p>
+                        <button onclick="htmlMessage()" class="btn btn-primary">Try Alert!</button>
+                    </div>
+                </div>
+
+            </div>
+
+    <div class="jumbotron ">
+        <h2>Bootstrap Modal</h2>
+        <p class="m-a-0 lead">Toggle a modal via JavaScript by clicking the button below. It will slide down and fade in from the top of the page.</p>
+    </div>
+    <div class="card">
+        <div class="card-block">
+            Trigger Modal with :
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Button
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function simpleMessage() {
+            swal({title:"Here's a message!",  confirmButtonColor: "#039BE5"});
+        }
+        function simpleTitle() {
+            swal({ title:"Here's a message!", text: "It's pretty, isn't it?",  confirmButtonColor: "#039BE5" });
+        }
+        function successMessage() {
+            swal({ title:"Good job!", text:"You clicked the button!", type:"success",   confirmButtonColor: "#039BE5"})
+        }
+        function warningConfrim()
+        {
+            swal({   title: "Are you sure?",   text: "You will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#039BE5",   confirmButtonText: "Yes, delete it!",   closeOnConfirm: false }, function(){   swal({title:"Deleted!", text:"Your imaginary file has been deleted.", type:"success",  confirmButtonColor: "#039BE5"}); });
+        }
+        function warningCallback() {
+            swal({   title: "Are you sure?",   text: "You will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#039BE5",   confirmButtonText: "Yes, delete it!",   cancelButtonText: "No, cancel plx!",   closeOnConfirm: false,   closeOnCancel: false }, function(isConfirm){   if (isConfirm) {     swal({title:"Deleted!", text:"Your imaginary file has been deleted.", type:"success",   confirmButtonColor: "#039BE5"});   } else {     swal({ title:"Cancelled", text:"Your imaginary file is safe :)", type:"error" ,  confirmButtonColor: "#039BE5" });   } });
+        }
+        function htmlMessage() {
+            swal({   title: 'HTML <small>Title</small>!',   text: 'A custom <span style="color:#F8BB86">html<span> message.',   html: true ,   confirmButtonColor: "#039BE5"});
+
+        }
+
+    </script>
+</div>
+
+
+	<!-- Vendor Scripts -->
+	<script src="../plugins/plugins.min.js"></script>
+	
+	<!-- Bootstrap -->
+	<script src="../plugins/bootstrap.min.js"></script>
+
+	<!-- App Scripts -->
+    <script src="../js/app.js"></script>
+
+	
+</body>
+</html>

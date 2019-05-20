@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>组织人员管理</title>
+    <link href="../../css/materialIcons.css" rel="stylesheet">
+    <link href="../../css/robotoFont.css" rel="stylesheet">
+    <link type="text/css" href="../../css/style.css" rel="stylesheet">
+    <link type="text/css" href="../../css/plugins.css" rel="stylesheet">
+    <script src="../../plugins/jquery.min.js"></script>
+</head>
+<body>
+<!--头部-->
+<nav class="navbar navbar-light navbar-full navbar-fixed-top left-md-sidebar nav-bg" style="height: 100px">
+    <button class="navbar-toggler pull-xs-left hidden-md-up" type="button" data-toggle="sidebar" data-target="#sidebarLeft" aria-expanded="false" aria-controls="sidebarLeft" data-transition="false">
+        <span class="material-icons material-icons-menu">menu</span>
+    </button>
+    <div class="nav-logo col-md-9"><i class="logo hidden-md-down"></i><a class="navbar-brand" href="../../Index.html" style="color: #fff;
+    display: inline-block;margin-top: 25px;">带路者后台管理系统</a></div>
+    <!--<a class="navbar-brand" href="Index.html">带路者科技有限公司</a>-->
+    <div class="pull-xs-right hidden-sm-down">
+        <a href="../LoginSignup.html" class="btn btn-light">注销登录</a>
+        <a href="javascript:;" class="btn btn-light" style="">帮助</a>
+    </div>
+</nav><!--头部 end-->
+
+<!--主体-->
+<div style="overflow: hidden">
+
+    <!-- 左侧导航 -->
+    <div class="sidebar sidebar-left sidebar-light bg-white" id="sidebarLeft">
+        <!--侧导航-->
+        <a href="javascript:;" class="sidebar-user clearfix">
+            <img src="../../picture/guy-6_1.jpg" alt="" class="img-circle pull-left">
+            <div class="pull-right" >
+                <span>登录用户：建国</span>
+                <p style="margin: 0">登录时间：2017-01-07</p>
+            </div>
+        </a>
+        <ul class="nav" id="mainMenu">
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">view_compact</i><span class="icon-text">基础信息管理</span>
+                    <span class="label"></span></a>
+                <ul>
+                    <li><a href="../../Index.html">国家地区编码</a></li>
+                    <li><a href="../basicInfor/diquxingzhibianma.html">地区性质编码</a></li>
+                    <li><a href="../basicInfor/guojiaguanqubianma.html">国家关区编码</a></li>
+                    <li><a href="../basicInfor/jiliangdanweibianma.html">计量单位编码</a></li>
+                    <li><a href="../basicInfor/fuwuzhuangtaibianma.html">服务状态编码</a></li>
+                    <li><a href="../basicInfor/xingzhengquhuabianma.html">行政区划编码</a></li>
+                    <li><a href="../basicInfor/xingzhengquhualeixing.html">行政区划类型</a></li>
+                    <li><a href="../basicInfor/gangkoudaimazidian.html">港口代码字典</a></li>
+                    <li><a href="../basicInfor/yinhangxinxibianma.html">银行信息编码</a></li>
+                    <li><a href="../basicInfor/zaixianzhuangtaibianma.html">在线状态编码</a></li>
+                    <li><a href="../basicInfor/yuzhongmingchengbianma.html">语种名称编码</a></li>
+                    <li><a href="../basicInfor/zhifufangshibianma.html">支付方式编码</a></li>
+                    <li><a href="../basicInfor/kuanxingleixingbianma.html">款型类型编码</a></li>
+                    <li><a href="../basicInfor/danjuzhuangtaibianma.html">单据状态编码</a></li>
+                    <li><a href="../basicInfor/hangyefenleibianma.html">行业分类编码</a></li>
+                    <li><a href="../basicInfor/maoyifangshibianma.html">贸易方式编码</a></li>
+                    <li><a href="../basicInfor/zhengjianmianshuibianma.html">征减免税编码</a></li>
+                    <li><a href="../basicInfor/cailiaofujianleixing.html">材料附件类型</a></li>
+                    <li><a href="../basicInfor/kehuleixingbianma.html">客户类型编码</a></li>
+                    <li><a href="../basicInfor/yunshufangshibianma.html">运输方式编码</a></li>
+                    <li><a href="../basicInfor/zhengmianfangshibianma.html">征免方式编码</a></li>
+                    <li><a href="../basicInfor/chanpinpinpaibianma.html">产品品牌编码</a></li>
+                    <li><a href="../basicInfor/yonghuleixingbianma.html">用户类型编码</a></li>
+                    <li><a href="../basicInfor/hetongxieyileixing.html">合同协议类型</a></li>
+                    <li><a href="../basicInfor/yonghudengjibianma.html">用户等级编码</a></li>
+                    <li><a href="../basicInfor/chengjiaofangshibianma.html">成交方式编码</a></li>
+                    <li><a href="../basicInfor/huobanguanxiyingshe.html">伙伴关系映射</a></li>
+                    <li><a href="../basicInfor/jianguanfangshibianma.html">监管方式编码</a></li>
+                    <li><a href="../basicInfor/baozhuangzhongleibianma.html">包装种类编码</a></li>
+                    <li><a href="../basicInfor/fapiaoleixingbianma.html">发票类别编码</a></li>
+                    <li><a href="../basicInfor/fapiaokemubianma.html">发票科目编码</a></li>
+                    <li><a href="../basicInfor/jc-zizhizhengjianleixing.html">资质证件类型</a></li>
+                    <li><a href="../basicInfor/jianguanzhengjianbianma.html">监管证件编码</a></li>
+                    <li><a href="../basicInfor/jiehuifangshibianma.html">结汇方式编码</a></li>
+                    <li><a href="../basicInfor/guojiabizhongbianma.html">国家币种编码</a></li>
+                    <li><a href="../basicInfor/guojiabizhonghuilv.html">国家币种汇率</a></li>
+                    <li><a href="../basicInfor/huobidanweibianma.html">货币单位编码</a></li>
+                    <li><a href="../basicInfor/qiyehuanjingbianma.html">企业环境编码</a></li>
+                    <li><a href="../basicInfor/guochengkongzhixiangmu.html">过程控制项目</a></li>
+                </ul>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">tune</i><span class="icon-text">系统功能管理</span></a>
+                <ul>
+                    <li class="active"><a href="../systemFunction/pingtaixitongguanli.html">平台系统管理</a></li>
+                    <li><a href="../systemFunction/pingtaiyingyongguanli.html">平台应用管理</a></li>
+                    <li><a href="../systemFunction/pingtaimokuaiguanli.html">平台模块管理</a></li>
+                    <li><a href="../systemFunction/mokuaigongnengguanli.html">模块功能管理</a></li>
+                    <li><a href="../systemFunction/pingtaicaidanguanli.html">平台菜单管理</a></li>
+                    <li><a href="../systemFunction/caidanmokuaiguanxi.html">菜单模块关系</a></li>
+                </ul>
+            </li>
+            <li class="nav-item open">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">tune</i><span class="icon-text">组织人员管理</span></a>
+                <ul>
+                    <li><a href="zuzhixinxiguanli.html">组织信息管理</a></li>
+                    <li><a href="zuzhiguanxiguanli.html">组织关系管理</a></li>
+                    <li><a href="renyuanzhanghaoguanli.html">人员账号管理</a></li>
+                    <li class="active"><a href="zuzhirenyuanguanli.html">组织人员管理</a></li>
+                    <li><a href="xitongzuzhipeizhi.html">系统组织配置</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">tune</i><span class="icon-text">系统权限管理</span></a>
+                <ul>
+                    <li><a href="../systemPermissions/xitongjiaoseguanli.html">系统角色管理</a></li>
+                    <li><a href="../systemPermissions/juesegongnengquanxian.html">角色功能权限</a></li>
+                    <li><a href="../systemPermissions/renyuanjueseguanxi.html">人员角色关系</a></li>
+                    <li><a href="../systemPermissions/yonghuquanxianweituo.html">用户权限委托</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">tune</i><span class="icon-text">企业注册管理</span></a>
+                <ul>
+                    <li><a href="../enterpriseRegistration/qiyezhucemokuai.html">企业注册模块</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">tune</i><span class="icon-text">安全监控管理</span></a>
+                <ul>
+                    <li><a href="../safetyMonitoring/xitongdenglurizhi.html">系统登录日志</a></li>
+                    <li><a href="../safetyMonitoring/gongnengcaozuorizhi.html">功能操作日志</a></li>
+                    <li><a href="../safetyMonitoring/jiekoucanshuxinxi.html">接口参数信息</a></li>
+                    <li><a href="../safetyMonitoring/jiekouanquancelv.html">接口安全策略</a></li>
+                    <li><a href="../safetyMonitoring/jiekoudiaoyongrizhi.html">接口调用日志</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:;"><i class="material-icons">tune</i><span class="icon-text">网站内容管理</span></a>
+                <ul>
+                    <li><a href="../siteContent/shangchengyemianguanli.html">商城页面管理</a></li>
+                    <li><a href="../siteContent/shangchengpindaoguanli.html">商城频道管理</a></li>
+                    <li><a href="../siteContent/lunbolanmuguanli.html">轮播栏目管理</a></li>
+                    <li><a href="../siteContent/shangchengdaleiguanli.html">商城大类管理</a></li>
+                    <li><a href="../siteContent/shangchengxiaoleiguanli.html">商城小类管理</a></li>
+                    <li><a href="../siteContent/caidanpinleiguanli.html">菜单品类管理</a></li>
+                </ul>
+            </li>
+        </ul> <!--侧导航 end-->
+
+    </div><!-- 左侧导航 end-->
+
+    <!-- 右侧内容 -->
+    <div class="content-wrapper">
+        <!--二级导航-->
+        <ol class="breadcrumb m-b-0">
+            <li><a href="javascript:;">首页</a></li>
+            <li><a href="../organizationPersonnel/zuzhirenyuanguanli.html">组织人员管理</a></li>
+            <li class="active">组织人员管理</li>
+        </ol><!--二级导航 end-->
+        <!--内容-->
+        <div class="col-md-12 bg-white me-border-radius " style="height: 725px">
+            <div class="me-margin-bottom">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="zuzhirenyuanbianma">组织编码</label>
+                        <input type="text" class="form-control" id="zuzhirenyuanbianma">
+                    </div>
+                    <div class="form-group">
+                        <label for="zuzhirenyuanmingcheng">组织名称</label>
+                        <input type="email" class="form-control" id="zuzhirenyuanmingcheng">
+                    </div>
+                    <button type="button" class="btn btn-default">查询</button>
+                    <button type="button" class="btn btn-default">重置</button>
+                </form>
+                <hr>
+                <p>
+                    <a href="zuzhirenyuanguanlizengjia.html" class="btn btn-default">添加人员</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#delect">删除人员</button>
+                </p>
+                <div class="col-md-12 clearfix " style="padding: 0">
+                    <div class= "col-md-2 pull-left fa-border me-padding-top" style="height: 550px">
+                        <p class="me-padding-top">平台用户<span class="text-danger">*</span><select name="" id="" style="width: 100px;height: 30px">
+                            <option value="中融集团">中融集团</option>
+                        </select></p>
+                        <div data-toggle="tree">
+                            <ul style="display: none">
+                                <li class="expanded">
+                                    中融国投
+                                    <ul>
+                                        <li class="expanded">
+                                            带路者公司
+                                            <ul>
+                                                <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">平台系统管理</span>
+                                            </span>
+                                                </li>
+                                                <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">创新业务部</span>
+                                            </span>
+                                                </li>
+                                                <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">技术部</span>
+                                            </span>
+                                                </li>
+                                                <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">网络产品部</span>
+                                            </span>
+                                                </li>
+                                                <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">线下产品部</span>
+                                            </span>
+                                                </li>
+                                                <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">综合部</span>
+                                            </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">盛世至尊</span>
+                                            </span>
+                                        </li>
+                                        <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">中高泰达</span>
+                                            </span>
+                                        </li>
+                                        <li class="fancytree-lastsib">
+                                            <span class="fancytree-node fancytree-active fancytree-focused fancytree-lastsib fancytree-exp-nl fancytree-ico-c">
+                                                <span class="fancytree-expander "></span>
+                                                <span class="fancytree-title">中视雅典</span>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-10 "  style="padding-top: 0;padding-right: 0">
+                        <!--表格信息-->
+                        <table class="table table-bordered table-striped with-check ">
+                            <thead>
+                            <tr>
+                                <th class="center"><input type="checkbox"></th>
+                                <th class="center">人员账号</th>
+                                <th class="center">人员名称</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="center"><input type="checkbox" /></td>
+                                <td class="center">1</td>
+                                <td class="center">中国</td>
+                            </tr>
+                            <tr>
+                                <td class="center"><input type="checkbox" /></td>
+                                <td class="center">1</td>
+                                <td class="center">中国</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--分页-->
+                        <div class="container pull-right" style="margin-right: 10px">
+                            <ul class="pagination  pagination-sm">
+                                <li class="page-item"><a class="page-link" href="javascript:;">上一页</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">1</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">2</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">3</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">下一页</a></li>
+                            </ul>
+                        </div><!--分页 end-->
+                    </div>
+                </div>
+            </div>
+
+        </div><!--内容 end-->
+    </div><!-- 右侧内容 end-->
+
+    <!--弹框-->
+    <div>
+        <!--删除-->
+        <div class="modal fade" id="delect" tabindex="-1" role="dialog" aria-labelledby="delectModalLabel" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4 class="modal-title" id="delectModalLabel">删除</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>您将删除所选择的编码记录信息，删除前请再次确认操作</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">确定</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--弹框 end-->
+
+</div><!--主体 end-->
+
+<!--尾部-->
+<footer class="center" style="margin-top: 20px">
+    <p><span>京ICP备16041296号-1&nbsp; |&nbsp; Copyright&nbsp; &nbsp;<span class="copyright-c">©</span> 2016, Silkwalks, All Rights Reserved</span>
+    </p>
+</footer><!--尾部 end-->
+
+
+<script src="../../plugins/plugins.min.js"></script>
+<script src="../../plugins/bootstrap.min.js"></script>
+<script src="../../js/app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
